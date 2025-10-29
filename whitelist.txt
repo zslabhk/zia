@@ -26,6 +26,7 @@ function FindProxyForURL(url, host) {
          (localHostOrDomainIs(host, "trust.zscaler.net")) ||
          (localHostOrDomainIs(host, "trust.zscalerone.net")) ||
          (localHostOrDomainIs(host, "trust.zscalertwo.net")) ||
+         (localHostOrDomainIs(host, "trust.zscalerthree.net")) ||
          (localHostOrDomainIs(host, "trust.zscloud.net"))) &&
         (url.substring(0,5) == "http:" || url.substring(0,6) == "https:"))
         return "DIRECT";
