@@ -18,8 +18,8 @@ function FindProxyForURL(url, host) {
         shExpMatch(host, "*.skyscanner.com"))
         return "DIRECT";
 
-    if (shExpMatch(host, "www.neverssl.com"))
-        return "PROXY 127.0.0.1:9";  // blocks traffic
+    //if (shExpMatch(host, "www.neverssl.com"))
+    //    return "PROXY 127.0.0.1:9";  // blocks traffic
 
     /* Updates are directly accessible */
     if (((localHostOrDomainIs(host, "trust.zscaler.com")) ||
