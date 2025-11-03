@@ -7,11 +7,11 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
 
     /* FTP goes directly */
-    if (url.substring(0,4) == "ftp:") return "DIRECT";
+    //if (url.substring(0,4) == "ftp:") return "DIRECT";
 
     /* test with ZPA */
-    if (isInNet(resolved_ip, "100.64.0.0","255.255.0.0"))
-        return "DIRECT";
+    //if (isInNet(resolved_ip, "100.64.0.0","255.255.0.0"))
+    //    return "DIRECT";
 
     if (shExpMatch(host, "*.hkjc.com") ||
         shExpMatch(host, "*.hk01.com") ||
