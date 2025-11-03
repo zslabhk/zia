@@ -28,6 +28,5 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
 
     /* Default block */
-    /*return "PROXY 127.0.0.1:9";*/
-    return "BLOCK";
+    /*return "BLOCK";*/
 }
