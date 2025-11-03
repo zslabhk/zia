@@ -4,7 +4,7 @@ var drop = "BLOCK";
 if ((localHostOrDomainIs(host, "google.com")) ||
 (localHostOrDomainIs(host, "salesforce.com")) ||
 (localHostOrDomainIs(host, "microsoft.com")) ||
-(localHostOrDomainIs(host, "hkjc.com")) ||
+(localHostOrDomainIs(host, "*.hkjc.com")) ||
 (localHostOrDomainIs(host, "zscaler.com")) )
 return "DIRECT";
 /* Default Block Statement to block anything not allowed above */
