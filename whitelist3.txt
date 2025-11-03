@@ -21,7 +21,7 @@ function FindProxyForURL(url, host) {
 			//custom white list
 			if (shExpMatch(host, "*.hkjc.com") ||
        					shExpMatch(host, "*.hk01.com") ||
-        				shExpMatch(host, "*.skyscanner.com") ||
+        				shExpMatch(host, "*.skyscanner.com"))
             return "DIRECT";
 		    /* Default Block Statement to block anything not allowed above */
 			return "BLOCK";
