@@ -7,5 +7,5 @@ if ((localHostOrDomainIs(host, "hkjc.com")) ||
 (localHostOrDomainIs(host, "zscaler.com")) )
 return "DIRECT";
 /* Default Block Statement to block anything not allowed above */
-return drop;
+//return drop;
 }
